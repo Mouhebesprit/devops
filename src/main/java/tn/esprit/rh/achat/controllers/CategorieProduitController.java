@@ -23,6 +23,7 @@ public class CategorieProduitController {
 		List<CategorieProduit> list = categorieProduitService.retrieveAllCategorieProduits();
 		return list;
 	}
+	//M
 	//trriger
 	//sss
 	//ss
