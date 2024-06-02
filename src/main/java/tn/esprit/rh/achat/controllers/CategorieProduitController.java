@@ -23,6 +23,7 @@ public class CategorieProduitController {
 		List<CategorieProduit> list = categorieProduitService.retrieveAllCategorieProduits();
 		return list;
 	}
+	//commentaire in controller
 
 	// http://localhost:8089/SpringMVC/categorieProduit/retrieve-categorieProduit/8
 	@GetMapping("/retrieve-categorieProduit/{categorieProduit-id}")
