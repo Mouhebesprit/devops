@@ -23,6 +23,7 @@ public class CategorieProduitController {
 		List<CategorieProduit> list = categorieProduitService.retrieveAllCategorieProduits();
 		return list;
 	}
+	//s
 	//trigger
 	//M
 	//trriger
