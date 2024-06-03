@@ -31,7 +31,7 @@ public class CategorieProduitServiceImpl implements ICategorieProduitService {
 		categorieProduitRepository.deleteById(id);
 		
 	}
-
+//
 	@Override
 	public CategorieProduit updateCategorieProduit(CategorieProduit cp) {
 		categorieProduitRepository.save(cp);
