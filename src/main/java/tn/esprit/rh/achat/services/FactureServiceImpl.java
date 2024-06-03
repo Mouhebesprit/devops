@@ -42,6 +42,7 @@ public class FactureServiceImpl implements IFactureService {
 	public Facture addFacture(Facture f) {
 		return factureRepository.save(f);
 	}
+	
 
 	/*
 	 * calculer les montants remise et le montant total d'un détail facture
