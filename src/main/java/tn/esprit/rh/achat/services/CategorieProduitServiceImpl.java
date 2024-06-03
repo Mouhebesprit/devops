@@ -21,6 +21,7 @@ public class CategorieProduitServiceImpl implements ICategorieProduitService {
 	//
 	//
 	//
+	//
 
 	@Override
 	public CategorieProduit addCategorieProduit(CategorieProduit cp) {
