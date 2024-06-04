@@ -28,6 +28,7 @@ public class FactureServiceImpl implements IFactureService {
 	ProduitRepository produitRepository;
     @Autowired
     ReglementServiceImpl reglementService;
+	//Im just a comment
 	
 	@Override
 	public List<Facture> retrieveAllFactures() {
